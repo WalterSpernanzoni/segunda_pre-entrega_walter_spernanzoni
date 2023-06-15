@@ -1,5 +1,19 @@
+:root {
+    --accent-color: #da106fff; 
+    --footer-color: #46bba5;
+    --text-color: #282442ff;
+    --disable-text-color: #6a6180;
+    --secondary-color1: #ed5555ff;
+    --secondary-color2: #ffba05ff;
+    --table-border: 3px solid #575555;
+}
+
+header {
+    background-color:#eeeeee;
+}
+
 h1{
-    background-color: blue;
+    margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -25,12 +39,38 @@ footer{
     border-radius: 16px;
 }
 
-.contenedor-imagenes {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .paisaje {
     object-fit: cover;
 }
-    
+
+.card-event {
+    -webkit-box-shadow: 0px 5px 8px -1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 5px 8px -1px rgba(0,0,0,0.5);
+    box-shadow: 0 0.5em 1.5em rgb(0 0 0 / 10%), 0 0.125em 0.5em rgb(0 0 0 / 15%);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-event img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-body {
+    background-color: var(--secondary-color2);
+}
+
+.btn-custom {
+    background-color: var(--text-color);
+    color: white;
+    cursor: pointer;
+    width: min-content;
+    white-space:nowrap; 
+}
+
+.btn-custom:hover {
+    background-color: var(--secondary-color1);
+    color: white;
+}
