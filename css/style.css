@@ -44,13 +44,7 @@ footer{
     object-fit: cover;
 }
 
-.card-event {
-    -webkit-box-shadow: 0px 5px 8px -1px rgba(0,0,0,0.5);
-    -moz-box-shadow: 0px 5px 8px -1px rgba(0,0,0,0.5);
-    box-shadow: 0 0.5em 1.5em rgb(0 0 0 / 10%), 0 0.125em 0.5em rgb(0 0 0 / 15%);
-    border-radius: 15px;
-    overflow: hidden;
-}
+
 
 .card-event img {
     width: 100%;
@@ -74,3 +68,5 @@ footer{
     background-color: var(--secondary-color1);
     color: white;
 }
+
+
